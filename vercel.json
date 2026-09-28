@@ -1,0 +1,6 @@
+{
+  "builds": [{ "src": "alipay.js", "use": "@vercel/node" }],
+  "routes": [
+    { "src": "/api/(.*)", "dest": "alipay.js" }
+  ]
+}
