@@ -1,0 +1,8 @@
+{
+  "name": "skill-alipay-vercel",
+  "version": "1.0.0",
+  "main": "alipay.js",
+  "scripts": { "dev": "vercel dev", "deploy": "vercel --prod" },
+  "dependencies": { "alipay-sdk": "^3.0.0" },
+  "engines": { "node": ">=18" }
+}
